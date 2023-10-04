@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.shadow {
+    border: 2px solid black;
+    width: 35%;
+    height: 500px;
+    margin: 50px auto;
+    background: rgb(2,0,36);
+    background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#00d4ff",GradientType=1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.circle-traslado {
+    border: 2px solid black;
+    border-radius: 50%;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    align-self: start;
+}
+
+.circle-escala {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    background: rgb(116,12,33);
+    background: -moz-linear-gradient(0deg, rgba(116,12,33,1) 0%, rgba(253,45,112,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(116,12,33,1) 0%, rgba(253,45,112,1) 100%);
+    background: linear-gradient(0deg, rgba(116,12,33,1) 0%, rgba(253,45,112,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#740c21",endColorstr="#fd2d70",GradientType=1);
+}
+
+.circle-skew {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    background-color: chartreuse;
+    border-radius: 1rem;
+    align-self: end;
+}
+
+.circle-rotate {
+    width: 150px;
+    height: 100px;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 1rem;
+    align-self: start;
+    margin-top: 20px;
+    margin-right: 20px;
+    transform-origin: right bottom;
+}
+
+.circle-traslado:hover {
+    transform: translate(200px, 360px);
+}
+
+.circle-escala:hover {
+    transform: scale(0.8, 1.2);
+}
