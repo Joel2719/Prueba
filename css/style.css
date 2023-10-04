@@ -79,6 +79,3 @@ body {
     transform: skew(60deg);
 }
 
-.circle-rotate:hover {
-    transform: rotate(90deg);
-}
