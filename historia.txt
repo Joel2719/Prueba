@@ -3,3 +3,5 @@ Un texto es una composición de signos codificados en un sistema de escritura qu
 También es una composición de caracteres imprimibles generados por un algoritmo de cifrado que.
 
 Les comparto mi repositorio de los comandos mas utilizados de git y la terminal.
+
+La personalidad es un conjunto de características que nos hacen únicos. Es lo que nos hace ser quienes somos. Nuestra personalidad está formada por nuestros pensamientos, sentimientos y comportamientos. También está influenciada por nuestras experiencias, nuestra cultura y nuestra genética.
