@@ -98,23 +98,3 @@ header h1 {
 .circle-skew:hover {
     transform: skew(60deg);
 }
-
-footer {
-    background-color: cadetblue;
-    width: 100%;
-    height: 150px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
-    align-items: center;
-}
-
-footer ul {
-    grid-column: 2;
-    list-style: none;
-}
-
-footer ul li {
-    margin: 10px 0;
-    color: white;
-}
